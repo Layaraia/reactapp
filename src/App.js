@@ -7,6 +7,7 @@ function App() {
   const [value, setValue] = useState ("")
   return (
   <div className="App">
+    <span>{value}</span>
     <Welcome/> 
     <InputText/> 
     <Input setValue = {setValue}/>
