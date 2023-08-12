@@ -1,10 +1,11 @@
 import React from "react";
-import Lesson from "./components/Lesson";
-import CounterButton from "./components/Lesson2";
+import Welcome from "./components/WelcomeMessage";
+import Input from "./components/Input";
+import InputText from "./components/InputText";
 
 function App() {
   return <div className="App">
-    <Lesson/>, <CounterButton/>
+    <Welcome/>, <InputText/>, <Input/>
   </div>;
 }
 
