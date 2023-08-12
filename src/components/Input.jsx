@@ -1,13 +1,13 @@
-import React from "react";
-
 const Input = (props) => {
 
   const { text, setValue } = props;
 
-  return <input 
+  return (
+  <input 
   type="text" 
   onChange={(e) => setValue(e.target.value)} 
-  />;
-};
+  />
+  )
+}
 
 export default Input

@@ -1,5 +1,3 @@
-import React from "react";
-
 function Welcome() {
   return (
     <div>
@@ -8,7 +6,7 @@ function Welcome() {
         Добро пожаловать. Здесь вы можете узнать о себе самые сокровенные тайны.
       </h2>
     </div>
-  );
+  )
 }
 
 export default Welcome;
