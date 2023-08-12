@@ -1,15 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import Lesson from "./components/Lesson";
+import CounterButton from "./components/Lesson2";
 
 function App() {
-  const state = useState (0)
-  console.log (state)
-  return (
-    <div className="App">
-      {/*<h1>{likes}</h1>
-      <button onClick={() => (likes += 1)}>Increment</button>
-  <button onClick={() => (likes -= 1)}>Decrement</button>*/}
-    </div> 
-  );
+  return <div className="App">
+    <Lesson/>, <CounterButton/>
+  </div>;
 }
 
 export default App;
