@@ -9,4 +9,4 @@ function Welcome() {
   )
 }
 
-export default Welcome;
+export default Welcome
