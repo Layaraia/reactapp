@@ -1,19 +1,14 @@
-import Welcome from "./components/WelcomeMessage";
-import Input from "./components/Input";
-import InputText from "./components/InputText";
-import { useState } from "react";
-import TextAfterINput from "./components/TextAfterInput";
+import Welcome from "./components/Welcome";
+import ButtonWithText from "./components/buttoncomponent/ButtonWithText";
+import "./global.css";
 
 function App() {
-  const [value, setValue] = useState ("")
   return (
-  <div className="App">
-    <Welcome/> 
-    <InputText/> 
-    <Input setValue = {setValue}/>
-    <TextAfterINput value = {value}/>
-  </div>
-  )
+    <div className="Container">
+      <Welcome />
+      <ButtonWithText />
+    </div>
+  );
 }
 
 export default App;
