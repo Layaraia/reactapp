@@ -1,4 +1,7 @@
 .textAfterInput {
   font-size: 20px;
-  color: brown;
+}
+
+div > span {
+  color: var(--mainColor)
 }
