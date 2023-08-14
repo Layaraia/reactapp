@@ -1,0 +1,9 @@
+.inputText{
+  background-color: inherit;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 16px;
+  margin-right: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
