@@ -9,7 +9,7 @@ const ButtonWithText = () => {
   const [showName, setShowName] = useState("");
 
   return (
-    <div className="container">
+    <div className="inputWithButton">
       <Input setName={setName} />
       <Button setShowName={setShowName} name={name} />
       {showName && <TextAfterInput showName={showName} />}

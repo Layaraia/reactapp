@@ -1,3 +1,7 @@
-.container {
-  background: var(--mainColor);
+.inputWithButton {
+  margin: 10px 0;
+}
+
+.textAfterInput {
+  margin: 10px 0;
 }
