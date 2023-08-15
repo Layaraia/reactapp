@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <div>
-        {<img src={MAGE} alt="cool mage" />}
+        <img src={MAGE} alt="cool mage" />
       </div>
       <div>
         <Welcome />
