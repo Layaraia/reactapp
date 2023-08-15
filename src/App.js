@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <div>
-        <img scr="/image/Mage.webp" alt="cool mage" />
+        <img src="/image/Mage.webp" alt="cool mage" />
       </div>
       <div>
         <Welcome />
