@@ -15,3 +15,7 @@ body {
 body {
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+}
