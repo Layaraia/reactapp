@@ -7,12 +7,12 @@ function App() {
   return (
     <div className="container">
       <div>
-        <img scr='/Mage.webp' alt='cool mage' />
+        <img scr="/image/Mage.webp" alt="cool mage" />
       </div>
       <div>
-      <Welcome />
-      <ButtonWithText />
-      {/*{NAV.map(item=>(<div>{item.title}</div>))}*/}
+        <Welcome />
+        <ButtonWithText />
+        {/*{NAV.map(item=>(<div>{item.title}</div>))}*/}
       </div>
     </div>
   );
