@@ -1,6 +1,5 @@
 import Welcome from "./components/Welcome";
 import ButtonWithText from "./components/buttoncomponent/ButtonWithText";
-import { MAGE } from "./const/MAGE";
 /*import { NAV } from "./const/nav";*/
 import "./global.css";
 
@@ -8,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <div>
-        <img src={MAGE} alt="cool mage" />
+        <img src="/image/mage.png" alt="cool mage" />
       </div>
       <div>
         <Welcome />

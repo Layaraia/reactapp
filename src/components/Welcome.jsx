@@ -5,7 +5,7 @@ const Welcome = () => {
   return (
     <div>
       <div>
-        <img src={MAGE} alt="cool mage" />
+      <img src={MAGE} alt="cool mage" />
       </div>
       <div>
         <h1>Вы посетили сайт Загадочной Гадалки!</h1>
