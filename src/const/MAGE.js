@@ -1,1 +1,1 @@
-export const MAGE = "./public/image/Mage.webp";
+export const MAGE = "/image/mage.png";
